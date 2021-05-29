@@ -1,0 +1,62 @@
+body {
+    font-family: 'Vesper Libre', serif;
+    margin: 2em 1em;
+    border: 2px solid #eeeeee;
+    border-radius: 10px;
+}
+main {
+    background: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header h1 {
+    font-size: 3.5em;
+    margin: 0;
+    color: #333333;
+}
+header p {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
+    color: #8a8a8a;
+}
+#img-div {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 8em;
+    background: #ffffff;
+    color: #929292;
+    font-size: 1.2em;
+}
+#image {
+    padding-bottom: 1em;
+    max-width: 100%;
+    min-width: 450px;
+}
+article h2{
+    margin-top: 2em;
+    text-align: center;
+    font-size: 1.5em;
+}
+article div {
+    width: auto;
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1.3em;
+    color: #757575;
+}
+article strong {
+    color: #333333;
+}
+article p {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    margin: 0;
+}
+footer {
+    font-size: 1.2em;
+}
